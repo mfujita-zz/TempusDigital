@@ -14,31 +14,28 @@
         }
         .container { height: 25%; }
             .arredondado {
-                border-radius: 22%;
+                border-radius: 20%;
                 width: 120px;
             }
     </style>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="Index.aspx">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Cadastro.aspx">Cadastro de clientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Listagem.aspx">Listagem de clientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Relatorio.aspx">Relatório</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="Index.aspx">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Cadastro.aspx">Cadastro de clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Listagem.aspx">Listagem de clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Relatorio.aspx">Relatório</a>
+            </li>
+        </ul>
+    </nav>
     
 
         <h2>Listagem de clientes</h2>

@@ -18,6 +18,7 @@ namespace TempusDigital
         protected void Page_Load(object sender, EventArgs e)
         {
             string stringConexao = "Server=.\\SQLEXPRESS;Database=ExameTempusDigital;Trusted_Connection=True;";
+            //string stringConexao = "Server=.\\SQLEXPRESS;AttachDbFilename=C:\MyFolder\MyDataFile.mdf;Database=dbname;Trusted_Connection=Yes;";
             SqlConnection sql = new SqlConnection(stringConexao);
 
             sql.Open();
